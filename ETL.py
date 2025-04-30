@@ -7,7 +7,7 @@ from pymongo import MongoClient
 URI = "mongodb+srv://User:Password@cluster.krvhb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster"
 
 #1. Extract
-df = pd.read_csv('C:/Users/nalva/OneDrive/Escritorio/Python/Datos/CSV/Video_Games_Sales_as_at_22_Dec_2016.csv')
+df = pd.read_csv('Video_Games_Sales_as_at_22_Dec_2016.csv')
 
 #2. Transform
 df.info()
